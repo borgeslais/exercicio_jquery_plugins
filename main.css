@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.qts {
+    width: 300px;
+    margin: 0 auto;
+    text-align: center;
+    
+}
+
+h1 {
+    font-size: 25px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    margin: 20px 0;
+    color:rgb(10, 10, 136)
+}
+
+form {
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    width: 100%;
+    height: 450px;
+    justify-content: center;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    background: rgba(169, 169, 169, 0.2);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(169, 169, 169, 0.3);
+
+}
+
+.form-campo {
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+    width: 90px;
+    height: 30px;
+    margin-top: 20px;
+    font-family: 'Hedvig Letters Sans', sans-serif;
+    color: white;
+    font-weight: bold;
+    background-color: rgba(56, 59, 56, 0.712);
+    border-radius: 16px;
+    border: 1px solid rgba(169, 169, 169, 0.3);
+    cursor: pointer;
+    letter-spacing: 1px;
+    
+}
+
+button:hover {
+    background-color: rgba(55, 165, 60, 0.712);
+}
+
+label {
+    display: flex;
+    flex-direction:column;
+    font-size: 15px;
+    font-weight: 600;
+    color: rgb(10, 10, 136);
+}
+
+input {
+    margin: 5px 0;
+    font-size: 15px;
+}
